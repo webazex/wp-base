@@ -1,0 +1,40 @@
+*{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+h1, h1 span,
+h2, h2 span,
+h3, h3 span,
+h4, h4 span,
+h5, h5 span,
+h6, h6 span {
+
+}
+p, span {
+
+}
+a, a span {text-decoration: none;}
+header, main, section, footer {width: 100%;}
+header {
+	position: fixed;
+	top: 0;
+	height: 141px;
+	z-index: 9;
+}
+.site-size {
+	max-width: 1920px;
+	width: 100%;
+	min-width: 320px;
+	margin: 0 auto;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.site-size__content {
+	width: 100%;
+	padding-right: 145px;
+	padding-left: 145px;
+}
